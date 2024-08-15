@@ -9,6 +9,9 @@
     <!-- ! Favicon -->
     <link rel="shortcut icon" href="images/hotel-logo.png" type="image/png">
 
+    <!-- ! AOS Library CSS CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- ! Fontawesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -70,7 +73,32 @@
     </header>
     <!-- ! Navbar Bitiş -->
 
+    <!-- ! Anasayfadaki Büyük Fotoğraf Başlangıç(Banner) -->
+    <section id="home" class="banner-wrapper p-0">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.453),rgba(0, 0, 0, 0.183)), url(images/slider/slider1.webp);">
+                    <div class="slide-caption text-center position-absolute top-50 start-50 translate-middle">
+                        <div>
+                            <h1 class="letter-spacing">Welcome hotel in Dubai</h1>
+                            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita alias saepe voluptatem ea corrupti laboriosam, iure, asperiores reprehenderit atque veniam nihil delectus eaque? Iusto cumque eveniet, aspernatur ad quos fugiat!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:linear-gradient(rgba(0, 0, 0, 0.453),rgba(0, 0, 0, 0.183)), url(images/slider/slider2.webp);">
+                    <div class="slide-caption text-center position-absolute top-50 start-50 translate-middle">
+                        <div>
+                            <h1 class="letter-spacing">Welcome hotel in Dubai</h1>
+                            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita alias saepe voluptatem ea corrupti laboriosam, iure, asperiores reprehenderit atque veniam nihil delectus eaque? Iusto cumque eveniet, aspernatur ad quos fugiat!</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+        </div>
 
+    </section>
+    <!-- ! Anasayfadaki Büyük Fotoğraf Bitiş -->
 
 
     <!-- ! Bootstrap JS CDN -->
@@ -78,6 +106,14 @@
 
     <!-- ! Swiper's JS CDN -->
     <script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js"></script>
+
+    <!-- ! AOS Library JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- ! AOS Library Inıt -->
+    <script>
+        AOS.init();
+    </script>
 
     <!-- ! External JS -->
     <script src="script.js"></script>
